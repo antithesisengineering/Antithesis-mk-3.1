@@ -1,0 +1,293 @@
+Frame,,,,
+,,,,
+MK3.1 Frame,,,,Currently the only option.
+,Extrusion,,,
+,,M5 Stamped T-Nut,50,Most post assembly T-Nuts should work for this.
+,,M3 Stamped T-Nut,14,Most post assembly T-Nuts should work for this.
+,,M5 Drop In T-Nut,4,These are for the side covers.
+,,MakerBeam XL T-Nut,10,
+,,1515x182 Extrusion,1,Use misumi or makerbeam XL. Both ends should be tapped.
+,,2020x172 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
+,,2020x200 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
+,,2040x214.5 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
+,,4040x272.5 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
+,Motion,,,
+,,MGN12Hx170mm Rail and Carriage,2,These are not a standard length and will need to be cut. There are a few places that offer rails cut to length or they can be cut down using a dremel with a cutoff wheel.
+,,MGN9Hx180mm Rail and Carriage,1,A few places including KB3D offer it in this length.
+,,20T Pulley for 6mm Wide Belt and 5mm Shaft,2,
+,,20T Idler for 6mm Wide Belt and 5mm Shaft,2,Use the gates style ones with the small flang the ones with a bigger flang will not work.
+,,GT2 6mm Belt 110cm,1,
+,,10x4x3 Bearing,8,
+,,NEMA 17 48mm,2,Use 42STH47-2504AC Speedy Power paired with 5160 Pro drivers for speed. Use 42STH48-1684MAC paired with 2209 drivers for better sensorless homing and quality.
+,,Nema 17 Integrated Lead Screw 150mm,1,Should be at least 150mm but can be up to 220mm long. I like to use the trident ones and cut them down.
+,Hardware,,,
+,,M3x5 Ultra Low Profile Screw,1,Can also sand the head of a M3x5 or M3x6 BHCS down to clear.
+,,M3x6 BHCS,2,
+,,M3x8 BHCS,11,
+,,M3x10 BHCS,1,
+,,M3x12 BHCS,4,
+,,M3x16 BHCS,7,
+,,M3x20 BHCS,14,
+,,M3x5 SHCS,5,
+,,M3x6 SHCS,14,
+,,M3x12 SHCS,2,
+,,M3x8 SHCS,14,
+,,M3x10 Set Screw,1,
+,,6x10xM3 Standoff,1,
+,,M3 Knurled Knob,4,
+,,M3x5x4 Heat Set Insert,12,
+,,M4x12 BHCS,4,
+,,M5x8 BHCS,12,
+,,M5x10 BHCS,51,
+,,M5x16 BHCS,5,
+,,M5x25 BHCS,4,
+,,M3 Washer Nylon,11,
+,,M3 Washer,27,
+,,M4 Washer,4,
+,,M3 Nylon Insert Nut,15,
+,,M4 Nylon Insert Nut,4,Not needed if the Lower Gantry Plate shipped with clinch nuts installed.
+,,M5 Nylon Insert Nut,5,
+,Bed,,,
+,,PCB Heater ,1,Custom PCB heater. All files are on the github and you can have it made. I am also currently going to ship them at cost to anyone interested.
+,,Kapton Tape ,1,Used to mount the thermistor.
+,,3950 Glass Bead Thermistor ,1,I like Crealitys ones meant for the ender 3. You can order them in a 5 pack.
+,,8429T14 Ring Terminals,2,For connecting the heated bed cable to the heated bed. It has the mcmaster part number for them. 
+,,Thermal Paste or Grease,,Used when inserting the thermistor to ensure proper heat transfer.
+,,Spring Steel Plate,1,I get mine cut by send cut send. Needs kapton or your surface of choice adhered on.
+,,Build Plate Surface,1,I like kapton but use any adhesive surface you want.
+,,Adhesive Magnet,1,I like KB3Ds magnets. Needs to be cut to size and needs a hole in the middle for the center screw.
+,,16 AWG Silicone Wire,,For the heated bed cable. 
+,,20-24 AWG Wire,,You may need wire to extend the thermistor.
+,,Heat Shrink Tubing,,
+,,Solder,,
+,Aluminum,,,Might be the hardest parts to source. You could make them yourself if you have the right machinery. I am also currently going to ship them at cost to anyone interested.
+,,Frame Bracket,2,
+,,Front Z Bracket Plate,1,
+,,Rear Z Bracket Plate ,1,
+,,Upper Carriage Plate,1,
+,,Lower Carriage Plate,1,
+,,Foot Bracket,1,
+,,Bed Bracket,1,
+,,3x5mm Dowel Pin,2,Installed into the Lower Carriage Plate and Rear Z Bracket Plate. Only needed if the parts you ordered didn't ship with it and you're installing it yourself.
+,,M3 Clinch Nut,8,Installed into the Upper Carriage Plate. Only needed if the parts you ordered didn't ship with it and you're installing it yourself.
+,,M4 Clinch Nut,4,Installed into the Lower Carriage Plate. Can be used in place of the M4 Nylon Insert Nuts. Only needed if the parts you ordered didn't ship with it and you're installing it yourself.
+,,,,
+,,,,
+,,,,
+Controllers,,,,
+,,,,
+BTT Manta M5P,,,,
+,Hardware,,,
+,,M2.5x8 BHCS,2,This is optional. Used if you want to run the steppers at higher voltages.
+,,M2.5 Nut,2,This is optional. Used if you want to run the steppers at higher voltages.
+,,M3x8 BHCS,8,
+,,M3x10 BHCS,4,
+,,M3x20 BHCS,4,
+,,M3x25 BHCS,4,
+,,M3 Washer,2,
+,,M3 Nut,2,
+,,M3x5x4 Heat Set Insert,17,
+,,M5x10 BHCS,4,
+,,M5 Stamped T-Nut,4,
+,Components,,,
+,,Manta M5P,1,
+,,"CB1, CB2 or CM4",1,If using the CB1 make sure to pickup a heat sink too. It runs really hot.
+,,TMC2209 or TMC5160 Pro Stepper Drivers,4,Use 2209s for the Z and E axis. Use 2209s or 5160 pros for the XY. The 5160s are better for speed the 2209s are cheaper and their sensorless homing works better.
+,,16GB SD Card,1,Unless using EMMc you will need this for the host.
+,,6020 24v Axial Fan,1,
+,,XT60E-F,1,This is for the main power.
+,,XT60E-M,1,This is optional. Used if you want to run the steppers at higher voltages.
+,,6mm(1/4in) Split Cable Sleeve 470mm(18.75in),1,This is for the bed.
+,,3mm Nylon Filament 470mm(18.75in),1,This can also be weed wacker line. It stiffens up the cable bundle. Do not use fiber fill filaments they will rub through the wires.
+,,3mm(1/8in) Split Cable Sleeve 150mm(6in),3,These are for the stepper motors.
+,,13mm(1/2in) Split Cable Sleeve 775mm(31in),1,For the main toolhead cable bundle.
+,,Ferrule Crimps,,Used to terminate the wires for VIN and the heaters.
+,,14-16 AWG Wire,,Cut to length for VIN 
+,,Heat Shrink Tubing,,
+,,Solder,,
+,,,,
+,,,,
+,,,,
+Power Supply Case,,,,
+,Hardware,,,
+,,M3x10 BHCS,2,
+,,M3 Nut,2,
+,,M4x6 BHCS,4,
+,,M4x8 BHCS,2,
+,Components,,,
+,,IEC-GS-1-100 Receptacle with Fuse,1,
+,,5mm Fork Terminal 14-16 AWG,5,
+,,5mm Spade Terminal 14-16 AWG,7,
+,,14-16 AWG Wire 125mm(5in) ,5,The long wires from the panel mounted connectors to the power supply should be about 125mm(5in) Too long or short will make it hard to slide the cover on.
+,,14-16 AWG Wire 25mm(1in),2,These are for the jumpers to the fuse and from the fuse to the switch.
+,,14-16 AWG Wire 300mm(12in),2,These are for the power cable from the PSU to the Control Box.
+,,Amass XT60 Connector (Female),2,These are for the power cable from the PSU to the Control Box.
+,,13mm(1/2in) Split Cable Sleeve 300mm(12in),1,This is for the power cable from the PSU to the Control Box.
+,,Power Cord C13,1,
+,,8A Fuse,1,
+,,Meanwell 200W or 350W Power Supply,1,Depending on your exact components a 200W PSU might be enough. If you're running a high power hotend or stepper drivers you might need a 350W PSU.
+,,Heat Shrink Tubing,,
+,,Solder,,
+,,,,
+,,,,
+,,,,
+Extruder Adapters,,,,
+,,,,
+Orbiter Extruder Adapter,,,,
+,Hardware,,,
+,,M3x10 BHCS,2,
+,,M3x5x4 Heat Set Insert,6,
+,Components,,,
+,,Orbiter v2.5,1,
+,,,,
+LGX Extruder Adapter,,,,
+,Hardware,,,
+,,M3x8 BHCS,4,
+,,M3x12 BHCS,2,
+,,M3x5x4 Heat Set Insert,4,
+,Components,,,
+,,LGX,1,
+,,,,
+,,,,
+,,,,
+Hotend Adapters,,,,
+,,,,
+Bambu X1 Style Hotend Adapter,,,,
+,Hardware,,,
+,,M2.5x6 SHCS,2,
+,,M3x12 BHCS,2,
+,,M3x20 BHCS,6,
+,,M3x25 BHCS,2,
+,,M3x12 SHCS,4,
+,,M3x5x4 Heat Set Insert,12,
+,Components,,,
+,,X1 Style Hotend,1,This could be the OEM or any of its many replacements
+,,5015 24v Blower Fan,2,
+,,4010 24v Axial Fan,1,
+,,Fan Extension Cable,3,I like E3Ds cables as they come with micro fit connectors.
+,,Thermistor Extension Cable,1,I like E3Ds cables as they come with micro fit connectors.
+,,Heater Extension Cable,1,I like E3Ds cables as they come with micro fit connectors.
+,,Connectors,,"These are for the fans, heater and thermistor. I like molex micro fit connectors but feel free to use anything with a high enough current rating."
+Probes,,,,
+,,,,
+BL Touch,,,,
+,Hardware,,,
+,,M3x8 BHCS,2,
+,,M3x10 BHCS,2,
+,Components,,,
+,,BL Touch,1,Get the one with the 1m extension cable
+,,,,
+Mosquito Hotend Adapter,,,,
+,Hardware,,,
+,,M2.5x10 SHCS,2,The mosquito should ship with these
+,,M3x12 BHCS,2,
+,,M3x20 BHCS,6,
+,,M3x12 SHCS,4,
+,,M3x5x4 Heat Set Insert,10,
+,Components,,,
+,,Mosquito ,1,
+,,5015 24v Blower Fan,2,
+,,4010 24v Axial Fan,1,
+,,Fan Extension Cable,3,I like E3Ds cables as they come with micro fit connectors.
+,,Thermistor Extension Cable,1,I like E3Ds cables as they come with micro fit connectors.
+,,Heater Extension Cable,1,I like E3Ds cables as they come with micro fit connectors.
+,,Connectors,,"These are for the fans, heater and thermistor. I like molex micro fit connectors but feel free to use anything with a high enough current rating."
+Probes,,,,
+,,,,
+BL Touch,,,,
+,Hardware,,,
+,,M3x10 BHCS,2,
+,,M3x12 BHCS,2,
+,Components,,,
+,,BL Touch,1,Get the one with the 1m extension cable
+,,,,
+Revo Hotend Adapter,,,,
+,Hardware,,,
+,,M2.5x8 SHCS,4,I don't remember if it ships with these
+,,M3x12 BHCS,2,
+,,M3x20 BHCS,6,
+,,M3x12 SHCS,4,
+,,M3x5x4 Heat Set Insert,10,
+,Components,,,
+,,Revo,1,
+,,5015 24v Blower Fan,2,
+,,4010 24v Axial Fan,1,
+,,Fan Extension Cable,3,I like E3Ds cables as they come with micro fit connectors.
+,,Thermistor Extension Cable,1,Depending which options you choose the Revo should come with this.
+,,Heater Extension Cable,1,Depending which options you choose the Revo should come with this.
+,,Connectors,,"These are for the fans, heater and thermistor. I like molex micro fit connectors but feel free to use anything with a high enough current rating."
+Probes,,,,
+,,,,
+BL Touch,,,,
+,Hardware,,,
+,,M3x10 BHCS,2,
+,,M3x12 BHCS,2,
+,Components,,,
+,,BL Touch,1,Get the one with the 1m extension cable
+,,,,
+,,,,
+,,,,
+Lead Screw Nut Mounts,,,,
+,,,,
+WobbleX Lead Screw Mount,,,,"Typically greatly improves print quality and layer consistency. However, It makes the printer less portable and harder to work on as the z is held together by gravity."
+,Hardware,,,
+,,M3x6 BHCS,2,
+,,M3x8 BHCS,2,
+,,M3x5x4 Heat Set Insert,2,
+,,M5x10 BHCS,2,
+,,Lead Screw Nut,1,Most integrated lead screw stepper motors come with the nut.
+,Components,,,
+,,WobbleX Kit,1,
+,,,,
+Regular Lead Screw Mount,,,,"Typically has worse print quality if the lead screw has any runout or misalignment but is simpler, cheaper, more reliable, more portable and easier to work on. "
+,Hardware,,,
+,,M3x12 BHCS,4,
+,,M3x5x4 Heat Set Insert,4,
+,,M5x16 BHCS,2,
+,,Lead Screw Nut,1,Most integrated lead screw stepper motors come with the nut.
+,,,,
+,,,,
+,,,,
+Z Motor Mounts,,,,
+,,,,
+Plastic Z Motor Mount,,,,The default option.
+,Hardware,,,
+,,M3x8 BHCS,4,
+,,M3x25 BHCS,2,
+,,M3 Washer,4,
+,,M3x5x4 Heat Set Insert,2,
+,,M5x16 BHCS,1,
+,,M5x8 BHCS,2,
+,,M5 Stamped T-Nut,2,
+,,,,
+Aluminum Z Motor Mount,,,,More rigid but also much more expensive. Doesn't seem to noticeably improve print quality. If using this the end of the extrusion should be milled straight.
+,Hardware,,,
+,,M3x12 BHCS,4,
+,,M3x25 BHCS,2,
+,,M3 Washer,4,
+,,M5x20 BHCS,1,
+,,6x14mm Dowel Pin,3,Installed into the Aluminum Z Motor Mount. Only needed if the parts you ordered didn't ship with it and you're installing it yourself.
+,Components,,,
+,,Aluminum Z Motor Mount,1,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
+,,,,
