@@ -9,7 +9,7 @@ MK3.1 Frame,,,,Currently the only option.
 ,,1515x182 Extrusion,1,Use misumi or makerbeam XL. Both ends should be tapped.
 ,,2020x172 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
 ,,2020x200 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
-,,2040x214.5 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
+,,2040x187 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
 ,,4040x272.5 Extrusion,1,Use misumi or a comparable replacement. Both ends should be tapped. Don't use V slot extrusions.
 ,Motion,,,
 ,,MGN12Hx170mm Rail and Carriage,2,These are not a standard length and will need to be cut. There are a few places that offer rails cut to length or they can be cut down using a dremel with a cutoff wheel.
