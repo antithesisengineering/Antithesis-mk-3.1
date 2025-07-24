@@ -31,11 +31,11 @@ Bill Of Materials [**HERE**](link)
 -Absolute Max: 20K mm/s² @ 500mm/s, 100K mm/s² @ 300mm/s
 
 ## Components
--MCU: Manta M5P
+-MCU: Manta M5P/SKR Pico
 
 -Host: CB2/CB1
 
--Extruder: Orbiter V2.5/LGX Pro
+-Extruder: Orbiter V2.5/LGX Pro/LGX Lite V2 
 
 -Hotend: Phaetus Conch Plus/Mosquito Magnum/More to come
 
