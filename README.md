@@ -2,7 +2,7 @@
 
 
 
-[**Build Guide**](link)
+[**Build Guide**]([Build Guide/Antithesis V1 Mk3.1 Build Guide RC2 (2).pdf](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fantithesisengineering%2FAntithesis-mk-3.1%2Ftree%2Fmain%2FBuild%2520Guide))
 
 Printed Parts [**HERE**](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fantithesisengineering%2FAntithesis-mk-3.1%2Ftree%2Fmain%2FSTLS)
 
