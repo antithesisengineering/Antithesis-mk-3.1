@@ -6,7 +6,7 @@
 
 Printed Parts [**HERE**](https://download-directory.github.io/?url=https%3A%2F%2Fgithub.com%2Fantithesisengineering%2FAntithesis-mk-3.1%2Ftree%2Fmain%2FSTLS)
 
-Bill Of Materials [**HERE**](link)
+Bill Of Materials [**HERE**](BOM/Antithesis_MK3.1_BOM_REV1.csv)
 
 ![printer pic](https://github.com/antithesisengineering/Antithesis-mk-3.1/blob/main/Photo%20Documentation/MK3.1/MCXY_MK3_Non-Para_Backup_7823_2023-Jul-15_08-37-35PM-000_CustomizedView5768345818.png?raw=true)
 
